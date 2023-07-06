@@ -1,4 +1,5 @@
-#
+# Klausurvorbereitung: Eine Zusammenfassung des Semesters
+
 ## Arten der Geography
 * Humangeographie
   * den Menschen betreffend
