@@ -2,7 +2,6 @@
 
 ## Physische Geographie
 * Frage nach Entstehung der Landschaft
-* 
 
 ## Human- & Umweltgeographie
 * Frage nach räumlicher Organisation & Muster
@@ -68,4 +67,42 @@
 * Ökonomie
 * Informationsgehalt
 * Transparenz
+
+## Geographie
+* Schnittstelle zwischen Naturwissenschaften und Gesellschaftswissenschaften
+* Anwendungen:
+ * Nutzung und Erstellung analoger und digitaler Karten
+ * Analyse raumbezogener Daten mit GIS
+ * Anwendung statistischer Verfahren
+
+## Feldmethoden
+* Befragung, Beobachtung, Experimente in der Stadt oder natürlichen Umland
+
+## Labormethoden
+* Analyse von Boden-, Wasser- oder Luftproben
+
+## Reliefanalyse
+* Relief = Übergangsfläche zwischen Erdkruste und Atmosphäre
+* Untersuchung und Beschreibung der Landformen
+ * Höhenlinien
+ * Hangneigung, -richtung
+ * Geländekanten, -rinnen
+
+## Datierungsmethoden
+### stratigraphisches Verfahren (relative Bestimmung)
+* Gesteinsschichtenanalyse
+* Warvenchronologie (Sedimentsanalyse)
+
+### Dendrochronologie (kalenderjahrgenau)
+* Jahresringe beim Dickenwachstum eines Baumes
+ * je nach Klima und Jahreszeit unterschiedlich
+
+### Radiocarbonmethode (300 - 60 000 Jahre)
+* Messung des Zerfalls von C14-Atomen
+* Halbwertszeit H<sub>$\frac{1}{2}$</sub>: 5730 Jahre
+* Verhältnis von C13 zu C12 Atomen
+
+### Lumineszenzdatierung
+* Nachweis über Aussetzung gegenüber Licht
+* Bleichungsgrad bei Quarz oder Feldspat
 
