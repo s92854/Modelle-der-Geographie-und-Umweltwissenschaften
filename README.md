@@ -1,1 +1,1 @@
-# Modelle-der-Geography-und-Umweltwissenschaften
+# Modelle der Geographie und Umweltwissenschaften
