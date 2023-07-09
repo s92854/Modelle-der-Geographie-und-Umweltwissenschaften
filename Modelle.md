@@ -42,11 +42,11 @@
 
 * Reale Welt
 * Bildhafte (Ikonische) Modelle
- * z.B. Satellitenbilder
+  * z.B. Satellitenbilder
 * Analogmodelle
- * z.B. Kartenwerke
+  * z.B. Kartenwerke
 * Symbolmodelle
- * z.B. BVG-Bahnnetz
+  * z.B. BVG-Bahnnetz
 
 ## Paradigma
 * eine Art Supermodell
@@ -106,3 +106,65 @@
 * Nachweis über Aussetzung gegenüber Licht
 * Bleichungsgrad bei Quarz oder Feldspat
 
+## Statistik
+### Deskriptive Statistik
+* Arithmetisches Mittel
+* Median
+* Modus
+* Varianz
+
+### Grundgesamtheit, Stichprobe
+
+## Kartographie
+* Abbildung des Erscheinungsbildes oder Teile davon
+* Probleme:
+  * Generalisierung
+  * Verzerrung
+* 2 Arten:
+  * thematische Karte
+    * dient primär der Orientierung
+  * topographische Karte
+    * primär für Sachverhalte und dessen räumliche Verteilung
+* geographische Koordinaten (Längen- u. Breitengrade)
+
+Projektion = Übertragung von Punkten der Erde auf die Karte
+
+## Fernerkundung
+* Gesamtheit aller Verfahren zur Gewinnung von Informationen über den Zustand der Erdoberfläche, der Meere und der Atmosphäre durch Mittel der Bildverarbeitung
+### passive Systeme
+* Empfangen von elektromagnetischen Wellen
+  * Kameras
+  * Multispektralbilder (mehrere Kanäle/ Wellenlängen)
+### aktive Systeme
+* Senden und Empfangen von elektromagnetischen Wellen
+  * Laser/Mikrowellen
+  * Detektoren und Radar
+
+### Landsat
+* zivile Erdbeobachtungssatelliten der NASA
+* 1972 LANDSAT-1
+* Analyse zeitlicher Entwicklungen (z.B. Städteentwicklung)
+
+## GIS - Geoinformationssystem
+* rechnergestütztes Anwendungssystem zur Ausführung bestimmter Aufgaben (raumbezogene Fragestellungen, Modellierung, Verwaltung, Analyse,...) in Bezug auf die Erde
+
+## Raster- und Vektordaten
+### Rasterdaten
+* einfache, kartesische Datenstruktur
+* Fläche mit kleinen Quadraten
+* Anzahl der Pixel bestimmt Auflösung
+
+### Vektordaten
+* enthält Objekte bestehend aus Punkten, Linien, Polygonen
+* Beschreibung durch Ecken, Kanten, mathematische Funktionen
+* räumlich präziser
+* geringe Dateigröße
+* Auflösungsfrei > Zoom ohne Verpixelung
+
+## Struktur der Umwelt
+
+![4_Planet_Erde](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/70e54d07-9713-407a-9e50-b737df879b45)
+
+* biotisch (lebend) & abiotisch (nicht lebend)
+* abiotisch: gasförmig, flüssig, fest
+* 
