@@ -167,4 +167,53 @@ Projektion = Übertragung von Punkten der Erde auf die Karte
 
 * biotisch (lebend) & abiotisch (nicht lebend)
 * abiotisch: gasförmig, flüssig, fest
-* 
+
+## Digitalisierung
+* Analoge Daten sind wertkontinuierlich, wenn sie stufenlos ineinander übergehen
+* Analoge Daten sind zeitkontinuierlich, wenn keine Lücken auftreten
+* Diskrete Werte sind dannvorhanden, wenn Wert- und oder Zeitkontinuität nicht gegeben sind / ist
+  1. Sampling (Abtastung)
+    *  Werte danach nur noch wertkontinuierlich
+  2. Quantisierung
+    * wertkontinuierliches Signal wird in möglichst viele Intervalle unterteilt
+
+## Alfred Wegeners Theorie des Kontinentaldrifts
+* 1912
+* Aussage: zu Beginn alles ein Kontinent: PANGAEA
+* 3 Hinweise
+  1. Kontinente passen wie Puzzelstücke in einander
+  2. zwei unterschiedliche Niveaus (Meeresspiegel und 5km darunter) > Meeresböden und Kontinente verschiedene Elemente; nicht Teil einer Gesamtoberfläche
+  3. Gesteinsproben beider Seiten des Atlantiks sind indentisch
+
+## Arthur Holmes
+* Idee: Kontinente werden durch Konvektionsströme bewegt
+* durch Paläomagnetismus bewiesen
+
+## Theorie der Plattentektonik
+* Wegener und Holmes trugen zur Bildung der Theorie bei
+* 2 Grenztypen
+  * konvergente Platten (steuern auf einander zu und kollidieren, eine schiebt sich unter die andere)
+  * divergente Platten (entfernen sich von einander)
+
+## Erdbeben
+* Brüche oder rucksartige Bewegungen tief in der Lithosphäre
+* Ort und Stärke nicht voraussehbar > nur Regionen identifizierbar
+
+## Vulkanismus
+* Öffnung der Erdkruste
+* Magma, Asche und Gase treten aus
+* Form des Vulkans hängt von Magma-Art ab
+  * Schildvulkane: flächige Ausbreitung der Lava
+  * Kegelvulkane bei zähflüssiger Lava und Asche
+* zerstören Flora & Fauna durch riesige Aschewolken & Lava
+
+## Atmosphäre
+* früher weder Atmosphäre, noch Hydrosphäre
+* 4-Stufentheorie:
+  1. 
+* ist dünne Gashülle
+* Gravitation bindet diese an die Erde > trotzdem geringes Entweichen von Helium
+* 90% in Troposphäre
+
+![Entstehung der Erdatmosphäre - der 4-Erden-Zyklus](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/35943134-f19c-430d-bab3-225d5fac3f31)
+
