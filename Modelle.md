@@ -153,6 +153,7 @@ Projektion = Übertragung von Punkten der Erde auf die Karte
 * einfache, kartesische Datenstruktur
 * Fläche mit kleinen Quadraten
 * Anzahl der Pixel bestimmt Auflösung
+  * 600 dpi ~ 240 Punkte pro Zentimeter
 
 ### Vektordaten
 * enthält Objekte bestehend aus Punkten, Linien, Polygonen
@@ -174,8 +175,13 @@ Projektion = Übertragung von Punkten der Erde auf die Karte
 * Diskrete Werte sind dannvorhanden, wenn Wert- und oder Zeitkontinuität nicht gegeben sind / ist
   1. Sampling (Abtastung)
     *  Werte danach nur noch wertkontinuierlich
+
+![Sampling](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/639823b0-170a-4ba8-8122-facd579e960d)
+
   2. Quantisierung
-    * wertkontinuierliches Signal wird in möglichst viele Intervalle unterteilt
+     * wertkontinuierliches Signal wird in möglichst viele Intervalle unterteilt
+
+![Quantisierung](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/0f2c003c-55b1-4692-8e85-58cd2b2345e8)
 
 ## Alfred Wegeners Theorie des Kontinentaldrifts
 * 1912
@@ -209,11 +215,128 @@ Projektion = Übertragung von Punkten der Erde auf die Karte
 
 ## Atmosphäre
 * früher weder Atmosphäre, noch Hydrosphäre
-* 4-Stufentheorie:
-  1. 
+* 4-Stufentheorie
 * ist dünne Gashülle
 * Gravitation bindet diese an die Erde > trotzdem geringes Entweichen von Helium
 * 90% in Troposphäre
 
 ![Entstehung der Erdatmosphäre - der 4-Erden-Zyklus](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/35943134-f19c-430d-bab3-225d5fac3f31)
 
+# Objektorientiertes Programmieren
+## UML
+* Unified Modelling Language
+* Dient der visuellen Aufbereitung und Vorbereitung von Software
+
+## Abstraktion
+* in der OOP repräsentieren Objekte abstrakte Akteure, die einen Zustand haben und Arbeiten verrichten (mit anderen Objekten interagieren)
+* Eigenschaften zur Beschreibung eines Objekts für einen bestimmten Zweck werden benötigt
+
+## Zahlen
+* Darstellung als Folge von Bits
+### Radix-Schreibweise
+
+![radix](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/b7fd8d1c-487c-477f-bfe6-8d9b79c2a1d4)
+
+* Zahl wird durch 2 dividiert
+* wenn Rest, dann 1, wenn nicht dann 0
+
+### Ganzzahlen
+
+![ganzzahlen](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/195e0e67-7787-402a-aebc-c783e7051e3e)
+
+
+### Gleitkomma
+
+![gleitkomma zahlen](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/9ccfef1f-db8c-4fa2-837d-ac360700165d)
+
+
+### Text
+* ASCII: 7 Bit pro Zeichen > später mit 8 Bit
+* heute UTF-8 als internationaler Standard mit bis zu 32 Bit pro Zeichen: ca. 4,3 Mrd. Symbole mgl.
+
+![textcodierung](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/07117834-c4d5-4e5f-9f49-4302ea2ba627)
+
+
+## Farbinformationen
+* Farben können Informationen vermitteln
+* Wahrnehmung Mensch: 400 - 800 nm Wellenlänge
+* Prinzip der additiven Farbmischung
+* RGB-Farbraum
+  * 8 Bit
+  * 2<sup>8</sup> * 2<sup>8</sup> * 2<sup>8</sup> = 256 * 256 * 256 = 2<sup>8+8+8</sup> = 2<sup>24</sup> = 16 777 216
+  * jeder Bildpunkt wird durch 3 Byte dargestellt
+* Truetone = Echtfarbe
+* Graustufenbild = 1 Byte (256 Abstufungen)
+* Scharz-Weiß-Bild = 1 Bit
+
+![farbinformationen](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/ddbd044e-5307-4573-a719-a469f4abceac)
+
+
+## Klassen
+* definiert Kollektion von Objekten in ihrer Struktur (Attribute) und Verhalten (Methoden), sowie Beziehungen
+* Klasse = Schablone zur Erstellung eines Objektes (Instanz)
+* Klassenname must have, alles andere optional
+
+![Klasse](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/1754f7a7-9051-4354-a758-4c58237991f0)
+
+* Sichtbarkeit wird durch mathematische Operationen gekennzeichnet
+  * wenn keine Sichtbarkeit angegeben, dann public
+```
++ ≙ public
+- ≙ private
+# ≙ protected
+~ ≙ package
+```
+* Stereotype sind klassifizierte Elemente, die in Klassen verwendet werden
+
+
+![Klassentypen](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/1ecda27b-e0ba-4134-b164-0f8beeaf50fa)
+
+![Enum](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/88763f36-aaf6-4ae4-9515-ef0fcbc88617)
+![struc](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/5bfd7397-d3b5-4d55-a2de-3850579c8986)
+
+### Klassenattribute
+* jedes Objekt verfügt über eigene Instanzattribute
+
+### Assoziationen
+* bringt Klassen in Beziehung zu einander > sagt aus, welche Objekte sich kennen
+* Kardinalitäten (Multiplizität): wie viele Objekte kann ein Objekt kennen und geht Kommunikation mit ihnen ein?
+Beispiel für Kardinalitäten:
+
+![kardinalitäten](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/1ac07b33-7719-46b0-8867-2972f2e2bcfa)
+
+
+## Funktionen
+* 
+
+
+## Objekte
+* Ein Objekt besitzt immer einen bestimmten Zustand zu einem Zeitpunkt und kann auf das Umfeld reagieren
+* Definierte Identität, die es von anderen unterscheidet
+* Zustand eines Objekts immer durch Attributwerte beschrieben
+* Verhalten eines Objekts durch seine Methoden definiert
+* Objekte existieren nur zur Laufzeit des Programms
+* Repräsentieren nur konkrete Daten
+Aufbau eines Objekts:
+
+![objekt](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/fffa5f6d-a9d1-4b00-843e-1a29f825d559)
+
+* auch: Attributname:Typ = (Standard-)Wert
+* Objekt kapselt Zustand und Verhalten
+
+### Geheimnisprinzip
+* direkter Zugriff von außen i.d.R. nicht vorgesehen; erfolgt durch Operationen oder Methoden
+
+![geheimnisprinzip](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/db2614dd-3642-4eed-9e92-bc326b7a807d)
+
+
+## Diagramme
+
+![Diagrammarten](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/77b000e3-0156-42ef-b78b-37a0562b63e0)
+
+
+### Klassendiagramme
+
+Beispiel für ein Klassendigramm:
+
+![Klassendiagramm](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/d1d2ffbd-518d-42dd-b74d-0e460e2ee52b)
