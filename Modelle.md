@@ -412,18 +412,6 @@ Aufbau eines Objekts:
 ![polymorphismus](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/152fadcd-5cdb-4ea1-ad01-4b2673f2c021)
 
 
-## Diagramme
-
-![Diagrammarten](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/77b000e3-0156-42ef-b78b-37a0562b63e0)
-
-
-### Klassendiagramme
-
-Beispiel für ein Klassendigramm:
-
-![Klassendiagramm](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/d1d2ffbd-518d-42dd-b74d-0e460e2ee52b)
-
-
 ## Beispiel: Wasserkreislauf
 Aufgabe:
 
@@ -444,4 +432,67 @@ Implementierung in Python Code:
 
 ## Prozesse
 ### Geschäftsprozesse (workflow)
-* mehrere zusammenhängende Aufgaben, die 
+* mehrere zusammenhängende Aufgaben, die durchgeführt werden, um ein Ziel/gewünschtes Ergebnis zu erreichen
+* Anwender soll maximal unterstützt werden
+* Fokos soll auf Abläufe gelegt werden
+
+### Schablone für Prozesse
+**Geschäftsprozess**: Name bestehend aus zwei oder drei Wörtern
+**Ziel**: Zielsetzung bei erfolgreicher Ausführung des Prozesses
+**Kategorie** (optional): primär, sekundär, optional
+**Vorbedingung**: Prozess kann nur ausgeführt werden, wenn Bedingung erfüllt ist
+**Nachbedingung Erfolg**: kann Vorbedingung für anderen Prozess sein
+**Nachbedingung Fehlschlag**: Zustand, wenn Ziel nicht erreicht wird
+**Beteiligung**: involvierte Akteure / Personen
+**Beschreibung**: Standardfall beschreiben
+  * B1: Text
+  * B2: Text
+**Alternative Beschreibung**: Wenn Abweichungen vom Standardfall eintreten können
+  * A1: Text
+  * A2: Text
+
+
+## Diagramme
+
+![Diagrammarten](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/77b000e3-0156-42ef-b78b-37a0562b63e0)
+
+### Klassendiagramme
+Beispiel für ein Klassendigramm:
+
+![Klassendiagramm](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/d1d2ffbd-518d-42dd-b74d-0e460e2ee52b)
+
+### Aktivitätsdiagramm
+* für komplexe Prozesse
+* Ablaufdiagramm für graphische Modellierung einzelner Schritte eines Geschäftsprozesses
+
+#### Symbolik
+* Aktivitäten, Aktionen in abgerundeten Kasten
+* Kontrollfluss durch Pfeile dargestellt
+* Raute bei mehreren Fällen und bei Zusammenführung
+* immer Start- und Endknoten
+* ggf. mehrere Enden, je nach Verzweigung
+* Gabelungen, Vereinigungen bei mehreren parallel (ge-)laufenden Aktionen
+  * nach Gabelung müssen alle Aktionen abgeschlossen sein, bis mit nächster Aktion fortgeführt werden kann
+
+![aktivitätsdiagramm](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/2c6e5e20-0764-431a-8ed5-954240200b55)
+
+### Anwendungsdiagramm (Use-Case-Diagramm) [kein Klausurinhalt]
+* Modellierung von Aktivitäten für Anwendungen
+* funktionale Beschreibung der Geschäftsprozesse
+* Use-Case beschreibt die Funktionalität des Systems, die ein Akteur ausführen muss, um ein Ziel zu erreichen
+  * Akteur: Rolle des Systems, die ein Benutzer annimmt (z.B Mensch)
+* nicht Teil des Systems
+* Use-Cases:
+  * Auftrag erteilen (Bestellung)
+  * Auftrag bearbeiten
+  * Artikel erfassen (Lagertätigkeit)
+* beschreibt mehrere Wege durch das System > jeder Weg ist ein Szenario
+
+![szenario](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/927620b8-b2ed-46cc-8f67-bb06867ab358)
+
+### Sequenzdiagramm
+* zeigt die Reihenfolge der Kommunikation von Objekten an
+* x-Achse: beteiligte Objekte
+* y-Achse: zeitlicher Ablauf
+
+![sequenzdiagramm](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/40b9e4fb-1849-4159-a61f-fbf9eebbc8f0)
