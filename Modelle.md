@@ -438,15 +438,23 @@ Implementierung in Python Code:
 
 ### Schablone für Prozesse
 **Geschäftsprozess**: Name bestehend aus zwei oder drei Wörtern
+
 **Ziel**: Zielsetzung bei erfolgreicher Ausführung des Prozesses
+
 **Kategorie** (optional): primär, sekundär, optional
+
 **Vorbedingung**: Prozess kann nur ausgeführt werden, wenn Bedingung erfüllt ist
+
 **Nachbedingung Erfolg**: kann Vorbedingung für anderen Prozess sein
+
 **Nachbedingung Fehlschlag**: Zustand, wenn Ziel nicht erreicht wird
+
 **Beteiligung**: involvierte Akteure / Personen
+
 **Beschreibung**: Standardfall beschreiben
   * B1: Text
   * B2: Text
+
 **Alternative Beschreibung**: Wenn Abweichungen vom Standardfall eintreten können
   * A1: Text
   * A2: Text
