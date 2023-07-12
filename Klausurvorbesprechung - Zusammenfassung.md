@@ -5,7 +5,6 @@
   * den Menschen betreffend
   * Einfluss des Menschen auf seine Umwelt
 * Physische Geography
-  * 
 * Regionale Geography
   * Unterteilung auf viele kleine Bereiche
   * man setzt Grenzen und untersucht diese und an diesen
@@ -21,11 +20,11 @@ Schematische Abbildung von Abläufen, ... um komplexe Sachverhalte einfach darzu
 2. Bildhafte Modelle
   * Nur Maßstabsveränderung
   * z.B. Satellitenbilder
-4. Analoge Modelle
+3. Analoge Modelle
   * generalisierte (kartographische) Darstellung
   * geodätisch richtig
   * z.B. OpenStreetMap, Google Maps
-5. Symbolhafte Modelle
+4. Symbolhafte Modelle
   * zwar geographischer Bezug
   * auf Kernaussage reduziert
   * z.B. BVG Fahrbahnkarte
@@ -39,7 +38,7 @@ Schematische Abbildung von Abläufen, ... um komplexe Sachverhalte einfach darzu
 * Atmosphäre, Hydrosphäre, Lithosphäre
 * Biosphäre: auf der Lithosphäre (Schicht von ein paar Kilometern), unterhalb der Hydrosphäre
 
-## Wer war ...?
+## Wer war Alfred Wegener?
 * Entdeckte, dass die Erdplatten früher anders angeordnet waren
 * Hinweise:
  * Form der Platten
@@ -47,15 +46,17 @@ Schematische Abbildung von Abläufen, ... um komplexe Sachverhalte einfach darzu
 
 ## Digitalisierung vs. digitale Transformation
 Digitalisierung: Analoges Medium wird in digitale Daten umgewandelt
-Digitale Transformation: 
+Digitale Transformation: thematisiert die Auswirkungen der technischen Veränderung auf den sozialen, politischen und wirtschaftlichen Wandel
 
 Zwei Schritte:
 * Abtastung (Sampling): Sensor erfasst digitale Daten
 * Quantisierung: Weitere Dimension wird hinzugefügt
 
 ## Raster vs Vektordaten
-Raster:
-Vektor:
+### Raster
+Bilder, Raster (Pixel) mit Informationen und Metadaten, hohe Datenmenge, Pixelanzahl bestimmt Auflösung
+### Vektor
+Objekte bestehend aus Punkten, Linien, Polygonen; Beschreibung durch Ecken, Kanten und mathematischen Funktionen
 
 ## Klassen
 Klassen sind Schablonen um Objekte zu erzeugen
