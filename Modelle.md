@@ -304,7 +304,39 @@ Projektion = Übertragung von Punkten der Erde auf die Karte
 
 #### Binäre Assoziationen
 * semantische (bedeutungsvoll) Beziehung zwischen zwei Klassen
+
 ![binäre_asso](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/ba7cf750-ec5b-4b28-95d7-6df676414a06)
+
+#### Gerichtete Assoziation
+* zeigt an, dass eine Klasse Kenntnis über die andere hat, aber das umgekehrt nicht sein muss
+
+![ger_asso](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/fc1c754d-3d45-4f80-91db-eee4279d61ca)
+
+* alternativ: Verbot. Bei einem Verbot darf die eine Klasse keine Kenntnis über die Andere haben
+
+![ger_asso_alt](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/4e0b6b90-41de-4035-a052-cbbe0350be3f)
+
+#### Reflexive Assoziation
+* Assoziationen von Klassen mit sich selbst
+Vorteil:
+* Klassenstruktur wird nicht aufgebrochen durch Modellierung von Beziehungen
+
+![refl_asso](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/c3c58a1b-1728-440b-a0fb-8339c72525dc)
+
+#### n-äre Assoziation
+* Beziehung zwischen n Klassen
+
+![näre_asso](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/9c2e9d25-6f3d-4412-b3c6-3e31f4248cc4)
+
+![näre-bsp](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/e13b212e-6cf5-4254-9921-14bfa75cb396)
+
+
+### Assoziationsklassen
+* vereint Eigenschaften einer Assoziation und einer Klasse
+
+![asso_klassen](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/193ec84e-bb59-4900-8075-06996c4627c0)
+
+![asso_klassen_bsp](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/041f36e5-7ff1-4e0e-b47c-3b8f858b8483)
 
 Beispiel für Kardinalitäten:
 
@@ -351,6 +383,34 @@ Aufbau eines Objekts:
 ![geheimnisprinzip](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/db2614dd-3642-4eed-9e92-bc326b7a807d)
 
 
+## Aggregation und Komposition
+### Aggregation
+* Teile-Ganzes-Beziehung
+* Das Ganze bleibt bestehen, auch wenn Teile entfernt werden
+* Klassen lose miteinander verbunden
+
+![aggregation](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/1e16a879-0dd5-4e36-b832-c659f1fb911e)
+
+### Komposition
+* Teile-Ganzes-Beziehung
+* untrennbar > wird ein Teil entfernt, kollabiert das gesamte Objekt
+
+![komposition](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/3e635e50-3107-4b25-94c0-d38642c17fa1)
+
+
+## Generalisierung & Spezialisierung
+* Prinzip der Vererbung
+* Beziehung zwischen einer spezifischen Subklasse und einer allgemeinen Superklasse
+* Subklasse erbt alle Attribute und Methoden der Superklasse
+* Subklassen können auch Methoden mit eigener Implementierung überschreiben
+
+![generalisierung_spezialisierung](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/046856ce-acf1-4eef-9216-f3ccdb7e4367)
+
+### Polymorphismus
+* Da Attribute vererbt werden, können Subklassen auch als Typ für Superklasse genutzt werden
+
+![polymorphismus](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/152fadcd-5cdb-4ea1-ad01-4b2673f2c021)
+
 
 ## Diagramme
 
@@ -362,3 +422,26 @@ Aufbau eines Objekts:
 Beispiel für ein Klassendigramm:
 
 ![Klassendiagramm](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/d1d2ffbd-518d-42dd-b74d-0e460e2ee52b)
+
+
+## Beispiel: Wasserkreislauf
+Aufgabe:
+
+![wasserkreislauf](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/f4068751-8d76-4822-a52b-9547586c9821)
+
+&nbsp;
+
+UML-Beispiellösung:
+
+![wasserkreislauf_uml](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/361d79f1-8c9c-4e89-96e3-08469f72c66a)
+
+&nbsp;
+
+Implementierung in Python Code:
+
+![wasserkreislauf_impl](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/2ad2bd81-0e93-4540-a4c4-cf704851adf3)
+
+
+## Prozesse
+### Geschäftsprozesse (workflow)
+* mehrere zusammenhängende Aufgaben, die 
