@@ -301,6 +301,11 @@ Projektion = Übertragung von Punkten der Erde auf die Karte
 ### Assoziationen
 * bringt Klassen in Beziehung zu einander > sagt aus, welche Objekte sich kennen
 * Kardinalitäten (Multiplizität): wie viele Objekte kann ein Objekt kennen und geht Kommunikation mit ihnen ein?
+
+#### Binäre Assoziationen
+* semantische (bedeutungsvoll) Beziehung zwischen zwei Klassen
+![binäre_asso](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/ba7cf750-ec5b-4b28-95d7-6df676414a06)
+
 Beispiel für Kardinalitäten:
 
 ![kardinalitäten](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/1ac07b33-7719-46b0-8867-2972f2e2bcfa)
@@ -324,10 +329,27 @@ Aufbau eines Objekts:
 * auch: Attributname:Typ = (Standard-)Wert
 * Objekt kapselt Zustand und Verhalten
 
+### Methoden
+
+![methoden](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/63e5f4ae-cd95-406d-baee-452c73afea7a)
+
+#### Übergabemodus
+* lesend (in)
+* schreibend (out)
+* lesend und schreibend (inout)
+
+#### Methoden-Überladung
+* Überladung möglich, sobald Parameterliste angepasst ist
+* Name bleibt gleich, Funktionen werden unterschiedlich angewendet
+
+![überladung](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/2a602da6-0367-4ab9-a2c2-918752d98ef1)
+
+
 ### Geheimnisprinzip
 * direkter Zugriff von außen i.d.R. nicht vorgesehen; erfolgt durch Operationen oder Methoden
 
 ![geheimnisprinzip](https://github.com/s92854/Modelle-der-Geographie-und-Umweltwissenschaften/assets/134683810/db2614dd-3642-4eed-9e92-bc326b7a807d)
+
 
 
 ## Diagramme
